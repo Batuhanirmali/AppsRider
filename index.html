@@ -1,3 +1,57 @@
+<style>
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  input[type="email"] {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  }
+
+  textarea {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    min-height: 100px;
+  }
+
+  button[type="submit"] {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+    background-color: royalblue;
+  }
+</style>
+
+<h1>The Doggy Time Contact</h1>
+
 <form
   action="https://formspree.io/f/mlekravp"
   method="POST"
@@ -13,3 +67,4 @@
   <!-- your other form fields go here -->
   <button type="submit">Send</button>
 </form>
+
